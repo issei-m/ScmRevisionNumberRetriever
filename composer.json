@@ -1,0 +1,29 @@
+{
+    "name": "issei-m/scm-revision-number-retriever",
+    "description": "Retrieves the current revision number which project now refers to.",
+    "type": "library",
+    "keywords": ["git", "capistrano", "revision"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Issei Murasawa",
+            "email": "issei.m7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Issei\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Issei\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    }
+}
